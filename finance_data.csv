@@ -1,2 +1,6 @@
 date,amount,category,description
 24-01-2026,323.0,Expense,ee
+25-01-2026,323.0,Income,ee
+26-01-2026,100.0,Expense,ee
+27-01-2026,323.0,Income,ee
+27-01-2026,333.0,Income,Salary
