@@ -3,6 +3,7 @@ import csv
 from datetime import datetime
 from data_entry import get_amount, get_date, get_category, get_description
 import os
+import matplotlib.pyplot as plt
 
 class CSV:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -64,6 +65,29 @@ def add():
     CSV.add_entry(date, amount, category, description)
 
 
+def plot_transactions(df):
+    df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y")
+    df = df.sort_values("date")
+
+    # Create full date range
+    all_dates = pd.date_range(start=df["date"].min(), end=df["date"].max(), freq="D")
+
+    income_df = df[df["category"] == "Income"].groupby("date")["amount"].sum()
+    expense_df = df[df["category"] == "Expense"].groupby("date")["amount"].sum()
+
+    # Reindex to full range and fill missing with 0
+    income_df = income_df.reindex(all_dates, fill_value=0)
+    expense_df = expense_df.reindex(all_dates, fill_value=0)
+
+    plt.figure()
+    plt.plot(all_dates, income_df, label="Income")
+    plt.plot(all_dates, expense_df, label="Expense")
+
+    plt.xlabel("Date")
+    plt.ylabel("Amount")
+    plt.title("Income vs Expense Over Time")
+    plt.legend()
+    plt.show()
 
 
 def main():
@@ -79,6 +103,8 @@ def main():
             start = get_date("Enter the start date (dd-mm-yyyy): ")
             end = get_date("Enter the end date (dd-mm-yyyy): ")
             df = CSV.get_transcations(start, end)
+            if input("Do you want to see a plot (y/n) ").lower()=="y":
+                plot_transactions(df)
         elif choice == "3":
             print("Exiting...")
             break

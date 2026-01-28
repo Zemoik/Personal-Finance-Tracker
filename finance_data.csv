@@ -4,3 +4,67 @@ date,amount,category,description
 26-01-2026,100.0,Expense,ee
 27-01-2026,323.0,Income,ee
 27-01-2026,333.0,Income,Salary
+28-01-2026,45.0,Expense,Coffee
+29-01-2026,1200.0,Income,Freelance
+30-01-2026,80.0,Expense,Groceries
+31-01-2026,300.0,Income,Bonus
+01-02-2026,60.0,Expense,Gas
+02-02-2026,1500.0,Income,Paycheck
+03-02-2026,95.0,Expense,Restaurant
+04-02-2026,200.0,Expense,Utilities
+05-02-2026,75.0,Expense,Internet
+06-02-2026,400.0,Income,Side Hustle
+07-02-2026,50.0,Expense,Snacks
+08-02-2026,130.0,Expense,Shopping
+09-02-2026,250.0,Income,Refund
+10-02-2026,40.0,Expense,Books
+11-02-2026,1800.0,Income,Paycheck
+12-02-2026,220.0,Expense,Car Repair
+13-02-2026,90.0,Expense,Clothes
+14-02-2026,60.0,Expense,Gift
+15-02-2026,500.0,Income,Investment
+16-02-2026,85.0,Expense,Groceries
+17-02-2026,300.0,Income,Freelance
+18-02-2026,120.0,Expense,Utilities
+19-02-2026,70.0,Expense,Gas
+20-02-2026,1000.0,Income,Paycheck
+21-02-2026,95.0,Expense,Restaurant
+22-02-2026,60.0,Expense,Coffee
+23-02-2026,150.0,Expense,Shopping
+24-02-2026,450.0,Income,Bonus
+25-02-2026,80.0,Expense,Groceries
+26-02-2026,200.0,Expense,Phone Bill
+27-02-2026,300.0,Income,Side Hustle
+28-02-2026,65.0,Expense,Snacks
+01-03-2026,1800.0,Income,Paycheck
+02-03-2026,90.0,Expense,Gas
+03-03-2026,120.0,Expense,Restaurant
+04-03-2026,250.0,Income,Refund
+05-03-2026,300.0,Expense,New Shoes
+06-03-2026,400.0,Income,Freelance
+07-03-2026,60.0,Expense,Coffee
+08-03-2026,110.0,Expense,Groceries
+09-03-2026,140.0,Expense,Shopping
+10-03-2026,1000.0,Income,Paycheck
+11-03-2026,75.0,Expense,Snacks
+12-03-2026,220.0,Expense,Utilities
+13-03-2026,350.0,Income,Side Hustle
+14-03-2026,95.0,Expense,Restaurant
+15-03-2026,500.0,Income,Investment
+16-03-2026,85.0,Expense,Gas
+17-03-2026,180.0,Expense,Clothes
+18-03-2026,1200.0,Income,Paycheck
+19-03-2026,70.0,Expense,Coffee
+20-03-2026,130.0,Expense,Groceries
+21-03-2026,260.0,Income,Bonus
+22-03-2026,90.0,Expense,Snacks
+23-03-2026,150.0,Expense,Shopping
+24-03-2026,300.0,Income,Freelance
+25-03-2026,60.0,Expense,Gas
+26-03-2026,1800.0,Income,Paycheck
+27-03-2026,95.0,Expense,Restaurant
+28-03-2026,120.0,Expense,Utilities
+29-03-2026,400.0,Income,Side Hustle
+30-03-2026,85.0,Expense,Coffee
+31-03-2026,200.0,Expense,Phone Bill
+
